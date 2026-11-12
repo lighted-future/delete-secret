@@ -2,6 +2,12 @@
 
 Windows 桌面浏览器历史清理工具：根据网址中包含的关键词，预览并删除匹配的本地访问记录。
 
+## 下载 Windows 程序
+
+[下载 v2 Windows x64 压缩包](https://github.com/lighted-future/delete-secret/raw/refs/heads/main/releases/v2/delete-secret-v2-windows-x64.zip) · [更新说明](releases/v2/更新说明.txt) · [SHA-256 校验值](releases/v2/delete-secret-v2-windows-x64.sha256.txt)
+
+完整解压后运行 `HistoryKeywordCleaner.exe`，无需安装 Python。请保留 `_internal` 文件夹。
+
 ## 功能
 
 - 选择 Chrome、Edge、Brave、Firefox 及浏览器配置目录。
@@ -58,4 +64,4 @@ python -m venv .venv
 - **v1**：首次发布，单文件程序；在部分环境出现 `init.tcl` 启动错误。
 - **v2**：改用目录发布，显式包含界面运行库，针对上述启动问题调整打包方式。业务功能与 v1 相同。
 
-详见 [更新说明](CHANGELOG.txt)。源码与打包程序应分别管理，Windows 可执行版本适合放在 GitHub Releases，并保留每版更新说明。
+详见 [更新说明](CHANGELOG.txt)。当前 Windows 程序保存在 `releases/v2/` 版本目录中，并附更新说明和文件校验值。后续版本应新增对应版本目录，保留旧版本。
